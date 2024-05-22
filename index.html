@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Shop</title>
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-loader" id="loader">
+    <span class="loader"></span>
+</div>
+    <!--SECCION HEADER -->
+
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">123-456-7890</span>
+                    </div>
+                </div>
+
+                <div class="container-logo">
+                    <i class="fa-solid fa-wind"></i>
+                    <h1 class="logo"><a href="/">AIR</a></h1>
+                </div>
+
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SECCION NAVBAR -->
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#seccion-categorias">Top Categorias</a></li>
+                    <li><a href="#seccion-productos">Top Products</a></li>
+                    <li><a href="#seccion-galeria">Galeria</a></li>
+                </ul>
+
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+<!--BANNER-->
+    <section class="banner">
+
+        <div class="content-banner">
+            <p>AHORA</p>
+            <h2>Nueva <br>
+                Coleccion AIR</h2>
+
+            <a href="#">comprar ahora</a>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="container container-features">
+            <div class="card-feature">
+                <i class="fa-solid fa-plane-up"></i>
+                <div class="feature-content">
+                    <span>Envío gratuito a nivel mundial</span>
+                    <p>En pedido superior a $150</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-wallet"></i>
+                <div class="feature-content">
+                    <span>Contrareembolso</span>
+                    <p>100% garantía de devolución de dinero</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-gift"></i>
+                <div class="feature-content">
+                    <span>Tarjeta regalo especial</span>
+                    <p>Ofrece bonos especiales con regalo</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-headset"></i>
+                <div class="feature-content">
+                    <span>Servicio al cliente 24/7</span>
+                    <p>LLámenos 24/7 al 123-456-7890</p>
+                </div>
+            </div>
+        </section>
+
+<!--CATEGORIA-->
+        <section class="container top-categories" id="seccion-categorias">
+            <h1 class="heading-1">Mejores Categorias</h1>
+            <div class="container-categories">
+
+                <div class="card-category category-1">
+                    <p>Abrigo De Cuero</p>
+                    <span>ver mas</span>
+                </div>
+
+
+                <div class="card-category category-2">
+                    <p>Accesorio Para Hombre</p>
+                    <span>ver mas</span>
+                </div>
+
+
+                <div class="card-category category-3">
+                    <p>Moda Urbana</p>
+                    <span>ver mas</span>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container top-products" id="seccion-productos">
+
+            <h1 class="heading-1">Mejores productos</h1>
+            <div class="container-options">
+                <span class="active">destacados</span>
+                <span>mas recientes</span>
+                <span>mejores vendidos</span>
+
+
+            </div>
+            <div class="container-products">
+                <!--produnto 1-->
+
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/producto-1.jpg" alt="">
+                        <span class="discount">-10%</span>
+                        <div class="button-group">
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-code-compare"></i></span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <h3>Campera Impermeable</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$27 <span>$30</span></p>
+                    </div>
+                </div>
+
+                <!--produnto 2-->
+
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/producto-2.jpg" alt="">
+                        <span class="discount">-20%</span>
+                        <div class="button-group">
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-code-compare"></i></span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <h3>Campera De Cuero</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$28 <span>$35</span></p>
+                    </div>
+                </div>
+
+
+                <!--produnto 3-->
+
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/producto-3.jpg" alt="">
+                        <span class="discount">-15%</span>
+                        <div class="button-group">
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-code-compare"></i></span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <h3>Polera negra</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$12,2<span>$12</span></p>
+                    </div>
+                </div>
+
+                <!--produnto 4-->
+
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/producto-4.jpg" alt="">
+                        <span class="discount">-20%</span>
+                        <div class="button-group">
+                            <span><i class="fa-solid fa-eye"></i></span>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-code-compare"></i></span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+
+                        <h3>Reloj Seiko</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$20 <span>$25</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="gallery" id="seccion-galeria">
+            <img src="img/gallery1.jpg" alt="Gallery Img1" class="gallery-img-1" />
+            <img src="img/gallery2.jpg" alt="Gallery Img2" class="gallery-img-2" />
+            <img src="img/gallery3.jpg" alt="Gallery Img3" class="gallery-img-3" />
+            <img src="img/gallery4.jpg" alt="Gallery Img4" class="gallery-img-4" />
+            <img src="img/gallery5.jpg" alt="Gallery Img5" class="gallery-img-5" />
+        </section>
+        
+    </main>
+
+    
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: 71 Pennington Lane Vernon Rockville, CT
+								06066
+							</li>
+							<li>Teléfono: 123-456-7890</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: AIR@support.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							<span class="pinterest">
+								<i class="fa-brands fa-pinterest-p"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Desarrollado por Ulises Miranda &copy; 2024
+					</p>
+
+					<img src="img/payment.png" alt="Pagos">
+				</div>
+			</div>
+		</footer>
+
+    <script src="https://kit.fontawesome.com/79a3d060b4.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
